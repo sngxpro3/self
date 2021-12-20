@@ -1,9 +1,14 @@
 /* 
+
+摸鱼提醒
+cron 30 8 * * * 
+
  *@authot:  Mol
  *@create: 2021-11-24-20/20-20
+ 
  */
 
-
+const $ = new Env("摸鱼人的哀歌");
 var fishMan = new Date(),
     year = fishMan.getFullYear(),
     month = fishMan.getMonth(),
